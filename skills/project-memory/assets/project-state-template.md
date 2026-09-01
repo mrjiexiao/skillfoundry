@@ -1,7 +1,7 @@
 # 项目状态
 
 最后更新：YYYY-MM-DD HH:MM ZONE
-最近会话：[会话主题](sessions/YYYY-MM-DD-HHMM-short-topic.md)
+最近会话：暂无
 
 ## 项目目标
 

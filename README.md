@@ -134,7 +134,7 @@ $project-memory import --apply
 | `$project-memory close [重点]` | 是 | 记录本次会话并刷新当前状态。 |
 | `$project-memory import` | 否 | 预览可导入的历史任务。 |
 | `$project-memory import --apply` | 是 | 导入当前对话中已经确认的任务范围。 |
-| `$project-memory` | 视情况而定 | 结构不存在时执行 `init`；已存在时执行 `close`。 |
+| `$project-memory` | 视情况而定 | 结构不存在时执行 `init`；已存在时执行 `status`。 |
 
 ### 6. 数据与授权
 
@@ -190,6 +190,8 @@ skills/
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
+    ├── references/
+    │   └── import.md
     └── assets/
         ├── agents-project-memory-snippet.md
         ├── imported-session-template.md
