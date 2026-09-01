@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Memory"
+  short_description: "Maintain durable per-project development memory"
+  default_prompt: "Use $project-memory to initialize, import history, or close this project’s durable development memory."
+policy:
+  allow_implicit_invocation: false
