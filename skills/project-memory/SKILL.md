@@ -116,8 +116,7 @@ Treat `import` without `--apply` as a preview. Never import every visible task m
 1. Ensure the project-memory structure exists; initialize missing pieces before continuing.
 2. Build an evidence set from:
    - the current conversation;
-   - `git status`/`git diff` or the SVN equivalents;
-   - files actually changed;
+   - files whose changes are already known from the current task;
    - commands and tests actually run;
    - existing project-memory files.
 3. Redact passwords, tokens, private keys, cookies, authorization headers, and sensitive personal data. Record secret locations or variable names only when useful.
